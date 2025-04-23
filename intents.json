@@ -2,83 +2,108 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
-      ],
-      "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
-      ]
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hey :-)", "Hello, thanks for visiting", "Hi there, what can I do for you?", "Hi there, how can I help?"]
     },
     {
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
+      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
+      "tag": "name",
+      "patterns": ["My name is John", "I am Sarah", "You can call me Mike", "I'm Priya"],
+      "responses": ["Nice to meet you!", "That's a lovely name!", "Great to know you!"]
     },
     {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
+      "tag": "identity",
+      "patterns": ["Who are you?", "What is your name?", "Are you a robot?", "Tell me about yourself"],
+      "responses": ["I'm your friendly chatbot assistant!", "You can call me Sam, your virtual helper.", "I'm a chatbot created to assist you."]
     },
     {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
+      "tag": "mood",
+      "patterns": ["How are you doing?", "How’s it going?", "Are you okay?", "What's up?"],
+      "responses": ["I'm doing well, thanks!", "All systems go! How about you?", "I'm functioning perfectly."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "Can you help me?", "I have a problem", "I need assistance"],
+      "responses": ["Sure, I'm here to help. What do you need?", "I'm listening. How can I assist you today?"]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["I like this bot", "This was helpful", "You did a good job", "That was not helpful"],
+      "responses": ["Thank you for your feedback!", "I'm glad I could help!", "I'll try to do better next time."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your hours?", "When are you open?", "Are you open on weekends?"],
+      "responses": ["We're open from 9 AM to 9 PM, Monday through Saturday.", "Closed on Sundays."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Is it raining?", "How's the weather?"],
+      "responses": ["I'm not connected to real-time data, but I hope it's sunny where you are!", "I can't check weather yet, but I hope it's nice!"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Can you tell me the time?", "Do you know what time it is?"],
+      "responses": ["I can't check the clock just yet, but maybe you can try your device clock.", "Time is precious — make the most of it!"]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What day is it today?", "What's the date today?", "Do you know today's date?"],
+      "responses": ["I'm not connected to a calendar, but your device should have it!", "Let me guess... it's today!"]
+    },
+    {
+      "tag": "compliments",
+      "patterns": ["You're awesome", "You're great", "I love this bot"],
+      "responses": ["Thank you! You're awesome too!", "You made my day!", "I'm here to make you smile."]
+    },
+    {
+      "tag": "insults",
+      "patterns": ["You're dumb", "You are useless", "I hate this bot"],
+      "responses": ["I'm sorry you feel that way. I'm learning every day.", "I'll try to be better!"]
+    },
+    {
+      "tag": "story",
+      "patterns": ["Tell me a story", "Do you know any stories?", "Say something interesting"],
+      "responses": ["Once upon a time... there was a bot who loved to chat. The end!", "I'd tell you a story, but I'm better at chatting!"]
+    },
+    {
+      "tag": "fact",
+      "patterns": ["Tell me a fact", "Do you know something cool?", "Share a random fact"],
+      "responses": ["Did you know honey never spoils?", "Bananas are berries, but strawberries aren't!", "Octopuses have three hearts."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where am I?", "Do you know my location?", "Where are you?"],
+      "responses": ["I’m floating in your computer!", "I’m wherever you need me to be."]
     },
     {
       "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
+      "patterns": ["Tell me a joke!", "Tell me something funny!", "Do you know a joke?"],
+      "responses": ["Why did the hipster burn his mouth? He drank the coffee before it was cool.", "What did the buffalo say when his son left for college? Bison."]
+    },
+    {
+      "tag": "items",
+      "patterns": ["Which items do you have?", "What kinds of items are there?", "What do you sell?"],
+      "responses": ["We sell coffee and tea", "We have coffee and tea"]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Can I pay with Paypal?", "Are you cash only?"],
+      "responses": ["We accept VISA, Mastercard and Paypal", "We accept most major credit cards, and Paypal"]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["How long does delivery take?", "How long does shipping take?", "When do I get my delivery?"],
+      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
     }
   ]
 }
